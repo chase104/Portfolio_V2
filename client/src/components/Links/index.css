@@ -1,0 +1,43 @@
+.links-bottom-container{
+    position: absolute;
+    bottom: -66px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    z-index: 2;
+    height: 66px;
+    width: 100%;
+    box-shadow: 10px 5px 25px grey;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.link-container{
+    box-sizing: border-box;
+    width: 33.3%;
+    height: 100%;
+    padding: 8px 0px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.link-img{
+    max-height: 50px ;
+}
+
+.link-container{
+    display: flex;
+    background: var(--app-blue);
+}
+.link-container:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+  }
+  .link-container:active {
+    filter: brightness(115%);
+  }

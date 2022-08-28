@@ -1,0 +1,27 @@
+
+.about-container{
+    min-height: var(--content-height);
+    min-width: var(--content-width);
+    max-height: var(--content-height);
+    background: orange;
+    display: flex;
+}
+
+.about-content{
+    display: flex;
+margin: 20px;    
+
+}
+
+.hello {
+    margin-top: -12px;
+    display: flex;
+  }
+  .hello img {
+    height: 60px;
+  }
+.profile-pic{
+    max-height: 250px;
+    margin-bottom: 10%;
+
+}

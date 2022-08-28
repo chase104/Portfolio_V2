@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.css';
 import ExampleTabs from '../ExampleTabs'
+import About from '../About'
+import Links from '../Links';
 
 const FloatingContentContainer = () => {
   return (
@@ -8,7 +10,7 @@ const FloatingContentContainer = () => {
         <div className="relative-content-container">
             <div className="overflow-container">
                 <div className="horizontal-slider">
-                    <div className="about"></div>
+                    <About />
                     <div className="vertical-app-slider">
                         <div className="app-example app-1"></div>
                         <div className="app-example app-2"></div>
@@ -16,6 +18,7 @@ const FloatingContentContainer = () => {
                 </div>
             </div>
             <ExampleTabs />
+            <Links />
         </div>
     </div>
   )

@@ -2,6 +2,7 @@
   text-align: center;
   --content-height: 60vh;
   --content-width: 60vw;
+  --app-blue: #75CBFD ;
 }
 
 .App-logo {
