@@ -1,0 +1,9 @@
+.background-upper-half{
+    display: flex;
+    min-height: 50vh;
+}
+
+.middle-back{
+    background-color: rgb(230,231,226);
+    width: 100%;
+}

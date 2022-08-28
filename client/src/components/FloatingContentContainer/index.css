@@ -1,0 +1,45 @@
+.about{
+    min-height: var(--content-height);
+    min-width: var(--content-width);
+    max-height: var(--content-height);
+    background: orange;
+}
+.app-example{
+    height: var(--content-height);
+    width: var(--content-width); 
+}
+.floating-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: var(--content-height);
+    margin-top: calc((100vh - var(--content-height))/2);
+}
+.horizontal-slider{
+    display: flex;
+    width: calc(2*var(--content-width));
+    max-height: var(--content-height);
+}
+
+.relative-content-container{
+    height: var(--content-height);
+    width: var(--content-width);
+    background: blue;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 10px 10px 18px grey;
+}
+.overflow-container{
+    height: var(--content-height);
+    width: var(--content-width);
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+.vertical-app-slider{
+    height: var(--content-height);
+    width: var(--content-width);
+    background: yellow;
+}

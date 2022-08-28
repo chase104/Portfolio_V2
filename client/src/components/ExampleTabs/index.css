@@ -1,0 +1,18 @@
+.example-tabs-container{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    background-color: red;
+    z-index: 1;
+}
+.tab{
+    background-color: yellow;
+    min-width: 100%;
+    display: flex;
+
+}
